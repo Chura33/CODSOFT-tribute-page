@@ -44,7 +44,7 @@ nav{
     margin-bottom: 10px;
 }
 .story{
-    width:85%;
+    width:100%;
     padding:10px 15px;
     background-color: rgb(97, 83, 83);
     border-radius:5px;
@@ -119,6 +119,12 @@ nav{
     #logo{
         font-size:30px;
        }
+       .title-img{
+           height: auto;
+       }
+       .story{
+           font-size: 15px;
+       }
 
        .title{
         font-size:30px;
@@ -126,12 +132,6 @@ nav{
 }
 @media (max-width:450px) {
  
-    .title-img{
-        height: auto;
-    }
-    .story{
-        font-size: 20px;
-    }
     nav{
         display: flex;
         justify-content: center;
@@ -146,9 +146,6 @@ nav{
 }
 
 @media (max-width:350px) {
-    .story{
-        font-size:18px;
-    }
 
     .footer-text{
         letter-spacing: 1px;
